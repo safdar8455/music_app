@@ -23,7 +23,7 @@ const AroundYou = () => {
   }, [country]);
 
   if (country==='PK') {
-    setCountry('US');
+    setCountry('IN');
   }
 
   if (isFetching && loading) {
